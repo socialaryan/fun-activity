@@ -40,3 +40,29 @@ h1{
    background-color: aqua;
    
 }
+
+
+@media(max-width: 400px){
+    *{
+    background-color: red;
+    }
+}
+
+
+@media (min-width: 481px) and (max-width: 1200px) {
+    * {
+      background-color: powderblue;
+    }
+  }
+
+  @media (min-width: 1201px) and (max-width: 1600px) {
+    * {
+      background-color: limegreen;
+    }
+  }
+
+  @media (min-width: 1601px) {
+    * {
+      background-color: seagreen;
+    }
+  }
