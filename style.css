@@ -1,0 +1,42 @@
+.main{
+    background-color: burlywood;
+    width: 590px;
+    height: 590px;
+    position: relative;
+    top: 200px;
+    left: 200px;
+    right: 200px;
+    bottom: 200px;
+    border:  2px solid orange;
+    border-radius: 70%;
+    
+}
+
+.inside{
+    background-color: pink;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 150px;
+    top: 150px;
+    border:  2px solid orange;
+    border-radius: 50%;
+    background-color:greenyellow;
+}
+
+h1{
+   height: 190px;
+   width: 250px;
+   text-align: center;
+   margin: 25px;
+   position: absolute;
+   top: 60px;
+   background-color: pink;
+   color: purple;
+   border-radius: 50%;
+}
+
+*{
+   background-color: aqua;
+   
+}
